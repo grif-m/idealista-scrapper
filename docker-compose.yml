@@ -1,0 +1,6 @@
+services:
+  idealista-scrapper:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "80:8080"
